@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PenVerse</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+
+
+
+</head>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <!--PenVerse logo-->
+      <img src="./images/pv-logo.webp" alt="pin logo" class="img1" style="border-radius: 50%;" />
+      <p class="header">Log in to write more.</p>
+      <% if(error.length>0){ %>
+        <p class="error">
+          <%= error %>
+        </p>
+        <% } %>
+          <form action="/login" method="post">
+
+            <input type="text" name="username" placeholder="username" class="detail" /><br />
+
+            <br />
+            <input type="password" name="password" placeholder="Password" class="detail" />
+            <input style="background-color:  #076741;;" type="submit" class="btn int" value="Login">
+          </form>
+
+
+
+
+
+
+
+          <footer>
+            <p>
+              By continuing, you agree to Pinterest's
+              <b>Terms of Service, Privacy policy.</b>
+            </p>
+            <hr />
+            <a href="/">Not on Pinterest yet? Sign up</a>
+          </footer>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

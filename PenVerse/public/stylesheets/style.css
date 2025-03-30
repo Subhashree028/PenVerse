@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+body {
+  /* background-color: white; */
+  background-image: url("/images/pv-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.img1 {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.detail {
+  width: 100%;
+  height: 40px;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 14px;
+  color: gray;
+  border: 1.5px solid rgb(218, 214, 214);
+  border-radius: 10px;
+}
+
+.detail:focus {
+  box-shadow: 0 0 5px rgba(15, 91, 231, 0.5);
+  outline: none;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #007848;
+}
+
+.btn {
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.int {
+  background-color: #f30d19;
+  color: white;
+}
+
+.int:hover {
+  background-color: #df0812;
+}
+
+.or {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.fbk {
+  background-color: rgb(9, 128, 240);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fbk:hover {
+  background-color: rgb(8, 110, 206);
+}
+
+.ggl {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ggl:hover {
+  background-color: #a0a0a0;
+}
+
+.fbk a,
+.ggl a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+footer p {
+  font-size: 11px;
+  margin: 10px 0;
+  opacity: 0.7;
+}
+
+hr {
+  width: 60%;
+  opacity: 0.4;
+  margin: 10px auto;
+}
+
+.upbtn {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 11px 20px;
+  background-color: rgb(241, 236, 236);
+  border-radius: 15px;
+}
+.error {
+  font-weight: 500;
+  color: #df0812;
+  text-transform: capitalize;
+  margin: 7px 0;
+}
